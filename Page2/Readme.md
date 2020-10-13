@@ -6,7 +6,7 @@ Version 1.0.0
 
 **Original New - First Week**
 
-[Link] (https://www.reuters.com/article/us-treasury-cyber/companies-may-be-punished-for-paying-ransoms-to-sanctioned-hackers-u-s-treasury-idUSKBN26M77U)
+[Link](https://www.reuters.com/article/us-treasury-cyber/companies-may-be-punished-for-paying-ransoms-to-sanctioned-hackers-u-s-treasury-idUSKBN26M77U)
 
 **Original New Second Week**
 
