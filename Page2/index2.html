@@ -4,10 +4,11 @@
         <title>
             Trump steel tariffs bring job losses to swing state Michigan|Reuters
         </title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <nav>
-            <div>REUTERS</div>
+        <nav id="navigator">
+            <img id="logo" src="Images2/reuters logo.png"><img>
             <ul>
                 <li>World</li>
                 <li>Business</li>
@@ -16,38 +17,46 @@
                 <li>Video</li>
                 <li>More</li>
             </ul>
-            <button>US</button>
-            <button>Search</button>
-        </nav>        
+            <span>
+                <button class="button">US</button>
+                <button class="button">Search</button>
+            </span>      
+        </nav>
         <!--Main Title-->
-        <header>        
+        <header id="main-header">
+            <div class="publicity">
+                <img src="Images2/SPDJI-19-0057-LatAm_970x250_Static_49694762088811682.jpg"></img>        
+            </div>
             <div>
-                <h6>
+                <h6 class="article-header">
                     <a href="https://www.reuters.com/news/archive/businessNews">
                     AUTOS
                     </a>
-                    <span> OCTOBER 9, 20208:07 AM UPDATED 2 DAYS AGO</span>
+                    <span> OCTOBER 9, 2020 / 8:07 AM / UPDATED 2 DAYS AGO</span>
                 </h6>     
             </div>
-            <h1>Trump steel tariffs bring job losses to swing state Michigan</h1>        
-            <div>
-                <span>By</span> 
-                <a href="https://www.reuters.com/journalists/rajesh-kumar-singh" target="_blank">Rajesh Kumar Singh</a> 
-                <span>
-                    <p>2 MIN READ</p>
-                    <button>TW</button>
-                    <button>FB</button>
-                </span>
+            <h1 id=title>Trump steel tariffs bring job losses to swing state Michigan</h1>        
+            <div class="sign">
+                <p class="article-header">By
+                    <a  href="https://www.reuters.com/journalists/rajesh-kumar-singh" target="_blank"> Rajesh Kumar Singh</a> 
+                </p>    
+                <div class="float-right">
+                    <button class="button">TW</button>
+                    <button class="button">FB</button>
+                </div>
+                <div class="float-right">
+                    <p>10 MIN READ</p>
+                </div>
             </div>
         </header>
         <hr>    
         <!--Article-->        
-        <article>
+        <article class="article-body">
             <p>CHICAGO(Reuters) - President Donald Trump promised a new dawn for the struggling U.S. steel industry in 2016, and the lure of new jobs in Midwestern states including Michigan helped him eke out a surprise election win.
             </p>
             <!--Image-->
-            <a href="hacker.jpg">
-                <img src="hacker.jpg"  title="People wearing balaclavas are silhouetted as they pose with a laptops in front of a screen projected with the word 'cyber' and binary code, in this picture illustration taken in Zenica October 29, 2014. REUTERS/Dado Ruvic" width="900" height="550">
+            <a class="article-image" href="Images2/welcometothegreatlakes.jpg">
+                <img src="Images2/welcometothegreatlakes.jpg"  title="An entrance to the U.S. Steel Great Lakes Works plant is seen in Ecorse, Michigan, U.S., September 24, 2019. Picture taken September 24, 2019. REUTERS/Rebecca Cook/File Photo" width="900" height="550">
             </a>
             <p>
                 Four years later, Great Lakes Works - once among the state’s largest steel plants - has shut down steelmaking operations and put 1,250 workers out of a job. A year before the June layoffs, plant owner United States Steel Corp called off a plan to invest $600 million in upgrades amid deteriorating market conditions.            </p>
@@ -111,8 +120,8 @@
             <p>
                 “No matter what the tariff is, you cannot sell something if there is limited demand,” said Ned Hill, a professor of economic development at the Ohio State University.
             </p>
-            <h5>
-                ‘THRIVING’ ENTERPRISE
+            <h5 class="article-body">
+            ‘THRIVING’ ENTERPRISE
             </h5>
             <p>
                 Trump said at a Pennsylvania rally in August last year - as steel companies were grappling with falling demand and prices - that his tariff has turned a “dead” business into a “thriving” enterprise.
@@ -135,9 +144,9 @@
             <p>
                 USW also supports tariffs but says the Trump administration undermined the policy by granting requests from steel-using U.S. manufacturers to exempt their imports - eliminating the advantage for domestic steel.
             </p>
-            <h5>
+            <h2>
                 TARIFF HITS MICHIGAN AUTO FIRMS
-            </h5>
+            </h2>
             <p>
                 The tariffs had a profound impact on steel consumers, industry experts say. All three Detroit automakers - General Motors, Ford and Fiat Chrysler Automobiles NV - have closed a plant in Michigan since January 2018, according to Kristin Dziczek, vice president of industry, labor and economics at the Center for Automotive Research. Both General Motors and Ford reported $1 billion each in increased steel cost in 2018.
             </p>
@@ -158,7 +167,7 @@
             </p>
         <br>
         <!--Article footer-->
-            <footer>
+            <footer id="article-footer">
                 <p>Reporting by Rajesh Kumar Singh; additional reporting by Timothy Gardner; editing by Caroline Stauffer and Brian Thevenot</p>
                 <i> Our Standards: <a href="https://www.thomsonreuters.com/en/about-us/trust-principles.html" target="_blank">The Thomson Reuters Trust Principles.</a></i>
             </footer>      
