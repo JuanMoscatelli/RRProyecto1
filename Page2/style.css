@@ -11,6 +11,8 @@ a:hover{
 #navigator{
     font-family: "knowledge-medium", sans-serif;
     font-size: 16px;
+    font-weight: bold;
+    color: grey;
     border-top: black 1px;
     border-bottom: grey solid 1px;
 }
@@ -18,8 +20,8 @@ a:hover{
     list-style: none;
     text-align: center;
     display: inline-block;
-    padding-right: 25%;
-    padding-left: 18%;
+    padding-right: 16%;
+    padding-left: 15%;
     padding-bottom: 2%;
     padding-top: 2%;
 }
@@ -29,11 +31,12 @@ a:hover{
 #navigator li{
     display: inline;
     margin-left: 10px;
+    margin-right: 10px
 }
 #logo {
-    display: inline-block
-    width: 14%;
-    height: 10%;
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 5%;
 }
 .publicity {
     width: 100%;
@@ -83,7 +86,9 @@ a:hover{
     font-family: "freight-book", serif;
     font-size: 16px;
     padding-left: 10%;
-    padding-right: 20%;
+    padding-right: 0%;
+    margin-right: 30%;
+
 }
 .article-body h2{
     font-size: 22px;
@@ -99,6 +104,11 @@ a:hover{
     margin-block-start: 1em;
     margin-block-end: 1em;
 }
+.in-article-link{
+    border-bottom: 1px dotted #128fdd;
+    text-decoration: none;
+}
+
 #article-footer {
     color: #717375;
     font-size: 16px;
@@ -108,4 +118,17 @@ a:hover{
     color: #717375 !important;
     font-size: 16px !important;
     font-family: "freight-book", serif;
+}
+#floating-sideline {
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+    float: right;
+    width: 20%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+#floatiing-sideline ul {
+    list-style: none;
+
 }
